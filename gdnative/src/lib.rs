@@ -32,6 +32,8 @@
 // documentation, and are only appearing in the sub-crates. It would make the doc
 // a lot easier to navigate if we could gather all classes here.
 
+extern crate gdnative_core;
+
 #[doc(inline)]
 pub use gdnative_core::*;
 #[doc(inline)]
